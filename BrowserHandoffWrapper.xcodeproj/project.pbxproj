@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BA2706D1A4B1F58009A1D4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2706C1A4B1F58009A1D4F /* AppDelegate.m */; };
+		5BA2706F1A4B1F58009A1D4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2706E1A4B1F58009A1D4F /* main.m */; };
+		5BA270711A4B1F58009A1D4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA270701A4B1F58009A1D4F /* Images.xcassets */; };
+		5BA270741A4B1F58009A1D4F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BA270721A4B1F58009A1D4F /* MainMenu.xib */; };
+		5BA2708A1A4B207B009A1D4F /* status-bar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BA270891A4B207B009A1D4F /* status-bar-icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BA270661A4B1F58009A1D4F /* BrowserHandoffWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrowserHandoffWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA2706A1A4B1F58009A1D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA2706B1A4B1F58009A1D4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BA2706C1A4B1F58009A1D4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BA2706E1A4B1F58009A1D4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BA270701A4B1F58009A1D4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5BA270731A4B1F58009A1D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5BA270891A4B207B009A1D4F /* status-bar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "status-bar-icon.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BA270631A4B1F58009A1D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BA2705D1A4B1F58009A1D4F = {
+			isa = PBXGroup;
+			children = (
+				5BA270681A4B1F58009A1D4F /* BrowserHandoffWrapper */,
+				5BA270671A4B1F58009A1D4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BA270671A4B1F58009A1D4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BA270661A4B1F58009A1D4F /* BrowserHandoffWrapper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BA270681A4B1F58009A1D4F /* BrowserHandoffWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				5BA270891A4B207B009A1D4F /* status-bar-icon.png */,
+				5BA2706B1A4B1F58009A1D4F /* AppDelegate.h */,
+				5BA2706C1A4B1F58009A1D4F /* AppDelegate.m */,
+				5BA270701A4B1F58009A1D4F /* Images.xcassets */,
+				5BA270721A4B1F58009A1D4F /* MainMenu.xib */,
+				5BA270691A4B1F58009A1D4F /* Supporting Files */,
+			);
+			path = BrowserHandoffWrapper;
+			sourceTree = "<group>";
+		};
+		5BA270691A4B1F58009A1D4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BA2706A1A4B1F58009A1D4F /* Info.plist */,
+				5BA2706E1A4B1F58009A1D4F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BA270651A4B1F58009A1D4F /* BrowserHandoffWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA270831A4B1F58009A1D4F /* Build configuration list for PBXNativeTarget "BrowserHandoffWrapper" */;
+			buildPhases = (
+				5BA270621A4B1F58009A1D4F /* Sources */,
+				5BA270631A4B1F58009A1D4F /* Frameworks */,
+				5BA270641A4B1F58009A1D4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrowserHandoffWrapper;
+			productName = BrowserHandoffWrapper;
+			productReference = 5BA270661A4B1F58009A1D4F /* BrowserHandoffWrapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BA2705E1A4B1F58009A1D4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = chingjun;
+				TargetAttributes = {
+					5BA270651A4B1F58009A1D4F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 5BA270611A4B1F58009A1D4F /* Build configuration list for PBXProject "BrowserHandoffWrapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BA2705D1A4B1F58009A1D4F;
+			productRefGroup = 5BA270671A4B1F58009A1D4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BA270651A4B1F58009A1D4F /* BrowserHandoffWrapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BA270641A4B1F58009A1D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA270711A4B1F58009A1D4F /* Images.xcassets in Resources */,
+				5BA270741A4B1F58009A1D4F /* MainMenu.xib in Resources */,
+				5BA2708A1A4B207B009A1D4F /* status-bar-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BA270621A4B1F58009A1D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA2706F1A4B1F58009A1D4F /* main.m in Sources */,
+				5BA2706D1A4B1F58009A1D4F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BA270721A4B1F58009A1D4F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BA270731A4B1F58009A1D4F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BA270811A4B1F58009A1D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5BA270821A4B1F58009A1D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5BA270841A4B1F58009A1D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BrowserHandoffWrapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BA270851A4B1F58009A1D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BrowserHandoffWrapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BA270611A4B1F58009A1D4F /* Build configuration list for PBXProject "BrowserHandoffWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA270811A4B1F58009A1D4F /* Debug */,
+				5BA270821A4B1F58009A1D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BA270831A4B1F58009A1D4F /* Build configuration list for PBXNativeTarget "BrowserHandoffWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA270841A4B1F58009A1D4F /* Debug */,
+				5BA270851A4B1F58009A1D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BA2705E1A4B1F58009A1D4F /* Project object */;
+}
