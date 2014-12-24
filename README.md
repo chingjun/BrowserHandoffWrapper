@@ -11,5 +11,9 @@ I am using Google Chrome as my primary web browser on my Mac, but it doesn't sup
  4. Choose the browser you wish to use as default browser
  5. Done. You can open Safari in your iPhone and an icon will appear in your dock.
 
+![Screenshot1](/Images/Screenshot1.png)
+
+![Screenshot2](/Images/Screenshot2.png)
+
 # License
 MIT License (Check license file)
